@@ -1,9 +1,9 @@
 #!/usr/bin/env perl
 
-#      $URL$
-#     $Date$
-#   $Author$
-# $Revision$
+#      $URL: http://perlcritic.tigris.org/svn/perlcritic/trunk/Bundle-Perl-Critic-IncludingOptionalDependencies/t/98_pod_syntax.t $
+#     $Date: 2007-07-30 18:09:49 -0500 (Mon, 30 Jul 2007) $
+#   $Author: clonezone $
+# $Revision: 1801 $
 
 use strict;
 use warnings;

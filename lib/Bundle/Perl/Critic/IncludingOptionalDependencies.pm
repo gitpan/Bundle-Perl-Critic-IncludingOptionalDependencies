@@ -1,14 +1,14 @@
-#      $URL$
-#     $Date$
-#   $Author$
-# $Revision$
+#      $URL: http://perlcritic.tigris.org/svn/perlcritic/trunk/Bundle-Perl-Critic-IncludingOptionalDependencies/lib/Bundle/Perl/Critic/IncludingOptionalDependencies.pm $
+#     $Date: 2008-04-20 21:16:07 -0700 (Sun, 20 Apr 2008) $
+#   $Author: clonezone $
+# $Revision: 2272 $
 
 package Bundle::Perl::Critic::IncludingOptionalDependencies;
 
 use strict;
 use warnings;
 
-our $VERSION = 1.000;
+our $VERSION = '1.001';
 
 1; # Magic true value required at end of module
 
@@ -38,6 +38,11 @@ Bundle::Perl::Critic::IncludingOptionalDependencies version 1.0.0.
 This is a CPAN bundle file for installing all known L<Perl::Critic>
 related distributions, plus all of their optional dependencies.
 
+B<WARNING>: This bundle will install Policies that directly conflict
+with each other.  If you do not use a F<.perlcriticrc> file, and your
+severity is set high enough, there is no way for your code to not have
+violations.
+
 Inspired by a question at the Perl::Critic BoF at OSCON 2007.
 
 =head1 CONTENTS
@@ -48,8 +53,6 @@ Inspired by a question at the Perl::Critic BoF at OSCON 2007.
 
     File::Which
 
-    IO::String
-
     IPC::Open2
 
     Perl::MinimumVersion
@@ -57,6 +60,8 @@ Inspired by a question at the Perl::Critic BoF at OSCON 2007.
     Perl::Tidy
 
     Pod::Spell
+
+    Regexp::Parser
 
     Term::ANSIColor
 

@@ -1,11 +1,7 @@
-#######################################################################
-#      $URL$
-#     $Date$
-#   $Author$
-# $Revision$
-########################################################################
+[1.1.0] Released on 2008-06-07
 
+     Update dependencies to support regex Policies.
 
-[0.01] Released on 2007-07-30
+[1.0.0] Released on 2007-07-30
 
      Initial release.
