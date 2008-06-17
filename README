@@ -44,14 +44,14 @@ BUGS AND LIMITATIONS
     No bugs have been reported.
 
     Please report any bugs or feature requests to
-    `bug-bundle-perl-critic-includingoptionaldependencies@rt.cpan.org', or
-    through the web interface at http://rt.cpan.org.
+    "bug-bundle-perl-critic-includingoptionaldependencies@rt.cpan.org", or
+    through the web interface at <http://rt.cpan.org>.
 
 AUTHOR
-    Elliot Shank `<perl@galumph.com>'
+    Elliot Shank "<perl@galumph.com>"
 
 LICENSE AND COPYRIGHT
-    Copyright (C)2007, Elliot Shank `<perl@galumph.com>'. All rights
+    Copyright (C)2007, Elliot Shank "<perl@galumph.com>". All rights
     reserved.
 
     This module is free software; you can redistribute it and/or modify it

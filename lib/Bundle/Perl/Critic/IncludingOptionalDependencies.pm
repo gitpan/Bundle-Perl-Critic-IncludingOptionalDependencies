@@ -8,7 +8,7 @@ package Bundle::Perl::Critic::IncludingOptionalDependencies;
 use strict;
 use warnings;
 
-our $VERSION = '1.001';
+our $VERSION = '1.001001';
 
 1; # Magic true value required at end of module
 

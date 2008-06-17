@@ -1,7 +1,11 @@
-[1.1.0] Released on 2008-06-07
+[1.001001] Released on 2008-06-17
+
+    "use 5.006001" in Makefile.PL and Build.PL.
+
+[1.001] Released on 2008-06-07
 
      Update dependencies to support regex Policies.
 
-[1.0.0] Released on 2007-07-30
+[1.000] Released on 2007-07-30
 
      Initial release.

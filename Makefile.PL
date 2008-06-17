@@ -1,17 +1,19 @@
 #      $URL: http://perlcritic.tigris.org/svn/perlcritic/trunk/Bundle-Perl-Critic-IncludingOptionalDependencies/Makefile.PL $
-#     $Date: 2007-07-30 18:09:49 -0500 (Mon, 30 Jul 2007) $
+#     $Date: 2008-06-17 14:27:21 -0500 (Tue, 17 Jun 2008) $
 #   $Author: clonezone $
-# $Revision: 1801 $
+# $Revision: 2450 $
+
+use 5.006001;
 
 use strict;
 use warnings;
+
 use ExtUtils::MakeMaker;
 
 WriteMakefile(
     NAME           => 'Bundle::Perl::Critic::IncludingOptionalDependencies',
     AUTHOR         => 'Elliot Shank <perl@galumph.com>',
     ABSTRACT_FROM  => 'lib/Bundle/Perl/Critic/IncludingOptionalDependencies.pm',
-    VERSION        => 'v1.0.0',
     PL_FILES       => {},
 );
 
