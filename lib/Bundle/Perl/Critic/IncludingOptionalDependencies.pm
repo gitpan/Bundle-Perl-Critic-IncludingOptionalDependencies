@@ -1,14 +1,14 @@
 #      $URL: http://perlcritic.tigris.org/svn/perlcritic/trunk/Bundle-Perl-Critic-IncludingOptionalDependencies/lib/Bundle/Perl/Critic/IncludingOptionalDependencies.pm $
-#     $Date: 2008-04-20 21:16:07 -0700 (Sun, 20 Apr 2008) $
+#     $Date: 2008-07-06 07:24:09 -0500 (Sun, 06 Jul 2008) $
 #   $Author: clonezone $
-# $Revision: 2272 $
+# $Revision: 2505 $
 
 package Bundle::Perl::Critic::IncludingOptionalDependencies;
 
 use strict;
 use warnings;
 
-our $VERSION = '1.001001';
+our $VERSION = '1.002';
 
 1; # Magic true value required at end of module
 
@@ -27,7 +27,7 @@ Bundle::Perl::Critic::IncludingOptionalDependencies - Install everything Perl::C
 =head1 VERSION
 
 This document describes
-Bundle::Perl::Critic::IncludingOptionalDependencies version 1.0.0.
+Bundle::Perl::Critic::IncludingOptionalDependencies version 1.2.0.
 
 =head1 SYNOPSIS
 
@@ -60,6 +60,8 @@ Inspired by a question at the Perl::Critic BoF at OSCON 2007.
     Perl::Tidy
 
     Pod::Spell
+
+    Readonly::XS
 
     Regexp::Parser
 

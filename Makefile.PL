@@ -1,7 +1,7 @@
 #      $URL: http://perlcritic.tigris.org/svn/perlcritic/trunk/Bundle-Perl-Critic-IncludingOptionalDependencies/Makefile.PL $
-#     $Date: 2008-06-17 14:27:21 -0500 (Tue, 17 Jun 2008) $
+#     $Date: 2008-06-17 15:10:16 -0500 (Tue, 17 Jun 2008) $
 #   $Author: clonezone $
-# $Revision: 2450 $
+# $Revision: 2453 $
 
 use 5.006001;
 
